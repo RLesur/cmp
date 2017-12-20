@@ -14,3 +14,4 @@ test_template2 <- function() {
 test_template()
 
 test_template2()
+

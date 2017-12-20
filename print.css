@@ -1,3 +1,20 @@
+@page {
+  margin: 1cm;
+  size: A4 portrait;
+}
+
+@page :first {
+  margin: 5cm;
+}
+
+
 @media print {
+  body {
+    column-count: 3;
+  }
+  h2 {
+    color: red;
+    -webkit-text-fill-color: red;
+  }
   
 }
