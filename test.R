@@ -1,3 +1,4 @@
+# PhantomJS ---------------------------------------------------------------
 test_template <- function() {
   rmarkdown::render("test_template.Rmd", encoding = "UTF-8")
   webshot::webshot("test_template.html", "test_template.pdf")
@@ -15,3 +16,9 @@ test_template()
 
 test_template2()
 
+
+# SlimerJS ----------------------------------------------------------------
+# Hello example
+system2(Sys.getenv("SLIMERJS_BAT"), args = "helloslimer.js")
+
+system2(Sys.getenv("SLIMERJS_BAT"), args = "slimerpdf.js")
