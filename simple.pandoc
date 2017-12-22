@@ -1,0 +1,6 @@
+t: html5
+o: simple.pdf
+pdf-engine: weasyprint
+css: .\cmp\weasy.css
+s:
+verbose:

@@ -1,0 +1,13 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 12pt;
+}
+
+p{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  line-height: 10pt;
+  text-align: justify;
+}
