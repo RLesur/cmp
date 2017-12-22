@@ -1,5 +1,6 @@
 ---
 title: TEST
+lang: fr
 ---
 
 ## Title2
