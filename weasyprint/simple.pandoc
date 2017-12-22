@@ -1,6 +1,5 @@
 t: html5
-o: simple.pdf
+o: weasyprint\simple.pdf
 pdf-engine: weasyprint
-css: .\cmp\weasy.css
+css: .\cmp\weasyprint\weasy.css
 s:
-verbose:

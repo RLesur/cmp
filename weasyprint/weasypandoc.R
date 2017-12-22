@@ -1,1 +1,1 @@
-knitr::pandoc("simple.md", encoding = "UTF-8")
+knitr::pandoc("./weasyprint/simple.md", encoding = "UTF-8")
